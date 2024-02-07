@@ -1,0 +1,38 @@
+.appGridContainer {
+  /* box-sizing: border-box; */
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 45% 45%;
+  grid-template-rows: 7% 43% 43% 7%;
+  grid-template-areas:
+    'banner banner banner'
+    'nav main main'
+    'nav main main'
+    'footer footer footer';
+}
+
+.appBanner {
+  grid-area: banner;
+  background-color: #DADADA;
+}
+
+.appNav {
+  /* grid-area: nav;
+  background-color: #F2EFEF !important; */
+}
+
+.mainContent {
+  height: 100%;
+  width: 100%;
+  grid-area: main;
+  background-color: #FDFAF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appFooter {
+  grid-area: footer;
+  background-color: #DADADA;
+}

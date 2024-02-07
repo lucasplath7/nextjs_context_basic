@@ -1,0 +1,21 @@
+.nav li::marker {
+  content: '';
+}
+
+.nav li:hover {
+  background-color: #b6b3b3;
+}
+
+.nav ul {
+  padding-inline-start: 10px;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #F2EFEF;
+}
+
+.navLink {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,32 @@
+.appTable {
+  background-color: #DADADA;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.appTable thead tr tbody td {
+
+}
+
+.appTable thead {
+  
+}
+
+.appTable tr {
+  
+}
+
+.appTable tbody {
+  background-color: #F2EFEF;
+}
+
+.appTable th {
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.appTable td {
+  text-align: center;
+  padding: 5px;
+}

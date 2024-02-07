@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-area: footer;
+  background-color: #DADADA;
+}
+
+.footerContent {
+  text-align: center;
+  margin: 0;
+}
